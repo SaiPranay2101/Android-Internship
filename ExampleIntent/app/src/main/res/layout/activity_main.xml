@@ -33,4 +33,31 @@
         android:layout_marginTop="15dp"
         android:onClick="dial"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Enter Email"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginTop="15dp"
+        android:onClick="send"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:hint="Enter search"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:layout_marginTop="15dp"
+        android:onClick="search"/>
 </LinearLayout>
